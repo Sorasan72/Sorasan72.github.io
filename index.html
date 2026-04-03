@@ -3,10 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script type="module" defer src="./js/main.js"></script>
+    <title>Калькулятор для путешествий</title>
 </head>
 <body>
+    
+    <div class="background__color">
+        <header class="header">
+            <div class="header__text">
+                <h1 class="header__title">Калькулятор для путешествий</h1>
+                <p class="header__subtitle">Вперёд к приключениям!</p>
+            </div>
+            
+            <img src="https://cdn-icons-png.flaticon.com/512/10940/10940890.png" alt="✈" srcset="">
+        </header>
+        <hr>
+        <main class="main">
+            <section class="currency">
+                <h2 class="first__section">Конвертер валют</h2>
+                <form action="" class="currency__changer">
+                    <div class="change__from">
+                        <label>
+                            Из валюты:
+                            <select name="" id="change__currency"></select>
+                        </label>
+                        <input type="text" class="currency__value" placeholder="100">
+                        
+                    </div>
+                    
+                    <div class="change__to">
+                        <label>
+                            В валюту:
+                            <select name="" id="change__currency"></select>
+                            <!-- <p class="total__value"></p> -->
+                        </label>
+                        
+                        <!-- <div class="changed__value"></div> -->
+                    </div>
+                    
+                    <button class="currency__btn">Конверитировать</button>
+                </form>
+
+
+            </section>
+            <section class="measures">
+                <h2 class="second__section">Конвертер единиц измерения</h2>
+                <form action="" class="measures__changer">
+                    <label for="from">
+                        <input type="radio" name="radioBtn" id="from" value="">
+                        Мили → км
+                    </label>
+                    
+                    <label for="to">   
+                        <input type="radio" name="radioBtn" id="to" value="">
+                        Км → мили
+                    </label>
+                    
+                    <div class="total__measure">
+                        <input type="text" class="measure__value">
+                        <!-- <p class="measure"></p> -->
+                    </div>
+                    
+                    <button type="submit" class="measure__btn">Конверитировать</button>
+                </form>
+
+
+
+            </section>
+            <section class="total">
+                <div class="total__wrapper__dynamic">
+                    <div class="wrapper">
+                        <h2 class="total__budget">Расчёт бюджета поездки</h2>
+                        <div class="buttons__wrapper">
+                            <input type="text" placeholder="На что тратим?">
+                            <input type="text" placeholder="Сколько тратим?">
+                            <button class="add">Добавить пункт</button>
+                            <button class="clear">Очистить</button>
+                        </div>
+                    </div>
+                    
+                    
+                    <ul class="total__list">
+                        <li class="total__list__elem">Транспорт <div class="container"><input type="text" name="" id=""><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Проживание <div class="container"><input type="text" name="" id=""><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Еда <div class="container"><input type="text" name="" id=""><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Развлечения <div class="container"><input type="text" name="" id=""><button class="delete">🗑️</button></div></li>
+                    </ul>
+                    <button class="total__btn">Расчитать бюджет</button>
+                </div>
+
+                <div class="total__wrapper__static">
+                    <h2 class="total__total">Итого:</h2>
+                    <!-- <table class="total__table">
+                        <tr>
+                            <th>arar</th>
+                            <td>arar</td>
+                        </tr>
+                        <tr>
+                            <th>arar</th>
+                            <td>arar</td>
+                        </tr>
+                        <tr>
+                            <th>arar</th>
+                            <td>arar</td>
+                        </tr>
+                        <tr>
+                            <th>Итого</th>
+                            <td>arar</td>
+                        </tr>
+                    </table> -->
+                </div>
+            </section>
+
+        </main>
+    </div>
+    
+
+    <footer>
+        <p>Made By Me :D</p>
+    </footer>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
     
 </body>
 </html>

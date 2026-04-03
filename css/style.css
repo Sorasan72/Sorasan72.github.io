@@ -1,0 +1,163 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+    color: #4D89F8;
+    
+    background-color: #EDF4FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.background__color {
+    box-sizing: border-box;
+    /* width: 800px; */
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #B3CEFF;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    text-shadow: 1px 1px 2px white;
+    margin-block: 8px;
+}
+
+.header__subtitle {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 2px #4D89F8;
+    
+}
+
+img {
+    width: 85px;
+    height: 85px;
+}
+
+hr {
+    /* margin: 0; */
+    border: 2px solid #4D89F8;
+}
+
+input, button, select {
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+}
+
+input:focus {
+    outline: 2px solid #4D89F8;
+}
+
+button {
+    width: max-content;
+    background-color: #4D89F8;
+    color: white;
+    
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3664b8;
+    cursor: pointer;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.currency, .measures, .total__wrapper__dynamic {
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #EDF4FF;
+    border-radius: 7px;
+}
+
+.first__section {
+    margin-block: 8px;
+}
+
+.currency__changer, .measures__changer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.measure__value {
+    width: fit-content;
+}
+
+.total__measure {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.measure {
+    /* width: fit-content; */
+    margin: 0;
+    padding: 8px;
+    font-size: 24px;
+    /* background-color: white; */
+    /* border-radius: 7px ; */
+}
+
+.measure::before {
+    content: '=';
+}
+
+.wrapper, .buttons__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons__wrapper {
+    gap: 5px;
+}
+
+.clear {
+    background-color: red ;
+}
+
+.clear:hover {
+    background-color: rgb(174, 29, 29);
+}
+
+.total__list {
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.total__list__elem {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 10px;
+    padding: 20px;
+    background-color: #EDF4FF;
+    border: 2px solid #4D89F8;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
