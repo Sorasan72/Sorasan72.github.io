@@ -72,47 +72,33 @@
 
             </section>
             <section class="total">
-                <div class="total__wrapper__dynamic">
+                <div class="total__wrapper__first">
                     <div class="wrapper">
                         <h2 class="total__budget">Расчёт бюджета поездки</h2>
                         <div class="buttons__wrapper">
-                            <input type="text" placeholder="На что тратим?">
-                            <input type="text" placeholder="Сколько тратим?">
-                            <button class="add">Добавить пункт</button>
+                            <form action="" class="add__item">
+                                <input type="text" id="on__what" placeholder="На что тратим?">
+                                <input type="text" id="how__much" placeholder="Сколько тратим?">
+                                <button type="submit" class="add">Добавить пункт</button>
+                            </form>
+                            
                             <button class="clear">Очистить</button>
                         </div>
                     </div>
                     
                     
                     <ul class="total__list">
-                        <li class="total__list__elem">Транспорт <div class="container"><input type="text" name="" id=""><button class="delete">🗑️</button></div></li>
-                        <li class="total__list__elem">Проживание <div class="container"><input type="text" name="" id=""><button class="delete">🗑️</button></div></li>
-                        <li class="total__list__elem">Еда <div class="container"><input type="text" name="" id=""><button class="delete">🗑️</button></div></li>
-                        <li class="total__list__elem">Развлечения <div class="container"><input type="text" name="" id=""><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Транспорт <div class="container"><input type="text" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Проживание <div class="container"><input type="text" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Еда <div class="container"><input type="text" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Развлечения <div class="container"><input type="text" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
                     </ul>
-                    <button class="total__btn">Расчитать бюджет</button>
+                    <button class="total__btn">Рассчитать бюджет</button>
                 </div>
 
-                <div class="total__wrapper__static">
+                <div class="total__wrapper__second">
                     <h2 class="total__total">Итого:</h2>
-                    <!-- <table class="total__table">
-                        <tr>
-                            <th>arar</th>
-                            <td>arar</td>
-                        </tr>
-                        <tr>
-                            <th>arar</th>
-                            <td>arar</td>
-                        </tr>
-                        <tr>
-                            <th>arar</th>
-                            <td>arar</td>
-                        </tr>
-                        <tr>
-                            <th>Итого</th>
-                            <td>arar</td>
-                        </tr>
-                    </table> -->
+    
                 </div>
             </section>
 
