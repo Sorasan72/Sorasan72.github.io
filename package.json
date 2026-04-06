@@ -1,0 +1,21 @@
+{
+  "name": "my_kursach",
+  "version": "1.0.0",
+  "description": "Название проекта\r ты ты ты ты\r пам пам пам",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sorasan72/my_kursach.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sorasan72/my_kursach/issues"
+  },
+  "homepage": "https://github.com/Sorasan72/my_kursach#readme",
+  "type": "module"
+}
