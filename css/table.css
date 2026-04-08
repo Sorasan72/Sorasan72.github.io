@@ -4,12 +4,6 @@
     border-collapse: collapse;
 }
 
-table {
-
-    background-color: white;
-    border-radius: 7px;
-}
-
 .total__wrapper__second th  {
     text-align: left;
     padding: 20px;
@@ -24,43 +18,42 @@ th, td {
     text-align: right !important;
 }
 
-.total__wrapper__second td:first-child {
+td:first-child {
     text-align: left;
     padding: 20px;
 }
 
-.total__wrapper__second td:last-child {
+td:last-child {
     text-align: right;
     padding: 8px 10px;
 }
 
-.total__wrapper__second td:last-child::after {
+td:last-child::after {
     content: '₽';
 }
 
-.total__wrapper__second tfoot td {
+tfoot td {
     padding: 10px;
 }
 
-.total__wrapper__second tfoot td::after {
+tfoot td::after {
     content: '₽';
 }
 
-.total__wrapper__second tfoot td:first-child {
+tfoot td:first-child {
     text-align: left;
     font-size: 24px;
 }
-
-.total__wrapper__second tfoot td:last-child {
+tfoot td:last-child {
     text-align: right;
     font-size: 24px;
 }
 
-.total__wrapper__second tfoot td {
+tfoot td {
     border: none;
 
 }
 
-.total__wrapper__second tfoot td::after {
+tfoot td::after {
     content: '';
 }

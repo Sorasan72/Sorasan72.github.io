@@ -1,0 +1,45 @@
+@media (max-width: 1247px) {
+    body {
+        width: 960px;
+    }
+
+    .add__item {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 760px) {
+    body {
+        width: 360px;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .wrapper input {
+        margin-bottom: 7px;
+    }
+
+    .change__from select {
+        margin-block: 5px;
+    }
+
+    .change__to, .total__measure {
+        width: 280px;
+        flex-wrap: wrap;
+    }
+
+
+    .add__item {
+        flex-direction: column;
+        justify-content: left;
+        flex-wrap: wrap;
+        
+    }
+    .container input {
+        width: 80px;
+    }
+    
+}

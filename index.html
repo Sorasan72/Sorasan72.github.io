@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <script defer type="module" src="./js/main.js"></script>
     <title>Калькулятор для путешествий</title>
 </head>
@@ -28,7 +29,7 @@
                             Из валюты:
                             <select name="" id="change__from"></select>
                         </label>
-                        <input type="text" class="currency__value" placeholder="100">
+                        <input type="number" class="currency__value" placeholder="100">
                         
                     </div>
                     
@@ -61,7 +62,7 @@
                     </label>
                     
                     <div class="total__measure">
-                        <input type="text" class="measure__value">
+                        <input type="number" class="measure__value">
                         <!-- <p class="measure"></p> -->
                     </div>
                     
@@ -78,20 +79,21 @@
                         <div class="buttons__wrapper">
                             <form action="" class="add__item">
                                 <input type="text" id="on__what" placeholder="На что тратим?">
-                                <input type="text" id="how__much" placeholder="Сколько тратим?">
+                                <input type="number" id="how__much" placeholder="Сколько тратим?">
                                 <button type="submit" class="add">Добавить пункт</button>
+                                <button class="clear">Очистить</button>
                             </form>
                             
-                            <button class="clear">Очистить</button>
+                            
                         </div>
                     </div>
                     
                     
                     <ul class="total__list">
-                        <li class="total__list__elem">Транспорт <div class="container"><input type="text" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
-                        <li class="total__list__elem">Проживание <div class="container"><input type="text" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
-                        <li class="total__list__elem">Еда <div class="container"><input type="text" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
-                        <li class="total__list__elem">Развлечения <div class="container"><input type="text" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Транспорт <div class="container"><input type="number" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Проживание <div class="container"><input type="number" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Еда <div class="container"><input type="number" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
+                        <li class="total__list__elem">Развлечения <div class="container"><input type="number" name="" class="list__elem__input"><button class="delete">🗑️</button></div></li>
                     </ul>
                     <button class="total__btn">Рассчитать бюджет</button>
                 </div>

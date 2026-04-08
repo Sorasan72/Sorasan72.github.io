@@ -7,7 +7,7 @@
 }
 
 .total__list__elem {
-    margin-bottom: 5px;
+    margin-block: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,19 +19,16 @@
     border-radius: 10px;
 }
 
-.list__elem__input:invalid {
-    background-color: rgb(243, 122, 122);
-    outline: 2px solid rgb(209, 6, 6);
-}
-
-
+/* .total__list__elem input {
+    width: 190px;
+} */
 
 .container {
-    width: 220px;
+    width: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 3px; */
+    gap: 3px;
 }
 
 .inner__container {
