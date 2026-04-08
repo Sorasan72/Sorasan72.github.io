@@ -39,9 +39,9 @@ select:hover {
 }
 
 .clear {
-    background-color: red ;
+    background-color: #21417c ;
 }
 
 .clear:hover {
-    background-color: rgb(174, 29, 29);
+    background-color: #172d54;
 }
