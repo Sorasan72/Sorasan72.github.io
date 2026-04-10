@@ -60,7 +60,7 @@ const convert = () => {
             
             totalCurrency.textContent = '';
 
-            totalCurrency.textContent = `=${(Math.round(+currencyInput.value * (data.conversion_rate)))} ${codeTo}`
+            totalCurrency.textContent = `=${(Math.round(+currencyInput.value * (data.conversion_rate))) * 100} ${codeTo}`
             changeToDiv.append(totalCurrency)
             // console.log((Math.round(+currencyInput.value * (data.conversion_rate))))
         })
