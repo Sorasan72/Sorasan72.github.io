@@ -2,6 +2,8 @@ const changeFrom = document.getElementById('change__from');
 const changeTo = document.getElementById('change__to');
 let optTo
 
+// создание пунктов option у элемента select
+
 export function createOption(currencyArray){
 
     currencyArray.forEach( item => {
@@ -19,7 +21,7 @@ export function createOption(currencyArray){
 
 }
 
-//получение списка всех валют
+// получение списка всех валют
 
 fetch("https://v6.exchangerate-api.com/v6/934ed8bd54e45ea69b94dc35/codes")
     .then ((answer)=>{
@@ -28,6 +30,7 @@ fetch("https://v6.exchangerate-api.com/v6/934ed8bd54e45ea69b94dc35/codes")
     .then(( data)=>{ console.log(data.supported_codes); createOption(data.supported_codes)})
 
 
+// конвертация валют
 
 const currencyInput = document.querySelector(".currency__value")
 const changeToDiv = document.querySelector(".change__to")

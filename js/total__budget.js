@@ -27,6 +27,8 @@ export const countBudget = () => {
     
     totalContainer.innerHTML = '';
 
+    // генерация таблицы
+
     if (expenses.length === 0) {
         totalContainer.innerHTML += '<p>Нет данных для отображения</p>';
         return;

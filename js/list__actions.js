@@ -1,6 +1,10 @@
+// генерация списка расходов
+
 const list = document.querySelector(".total__list")
 // const listElem = document.querySelector(".total__list__elem")
 // const deleteButton = document.querySelector(".delete")
+
+// удаление элемента списка
 
 export const list__actions = () => list.addEventListener('click', (event) => {
     if (event.target.classList.contains("delete")) {
@@ -12,6 +16,7 @@ export const list__actions = () => list.addEventListener('click', (event) => {
     
 })
 
+// добавление элемента списка
 
 const onWhat = document.getElementById('on__what')
 const howMuch = document.getElementById('how__much')
@@ -43,6 +48,8 @@ addItemForm.addEventListener('submit', (event) => {
     onWhat.value = ''
     howMuch.value = ''
 })
+
+// кнопка очистки списка
 
 const clearButton = document.querySelector(".clear")
 export const clearBtn = () => clearButton.addEventListener('click', (event) => {

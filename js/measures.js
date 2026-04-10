@@ -1,3 +1,5 @@
+// перевод единиц измерения
+
 const measureForm = document.querySelector(".measures__changer")
 const milesToKilo = document.querySelector("#from")
 const kiloToMiles = document.querySelector("#to")
