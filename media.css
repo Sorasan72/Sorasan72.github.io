@@ -55,4 +55,10 @@
         background-color: #4D89F8;
         color: white;
     }
+    select:hover {
+        cursor: pointer;
+    }
+    .clear:hover {
+        background-color: #172d54;
+    }
 }

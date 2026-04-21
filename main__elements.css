@@ -29,19 +29,19 @@ button {
     margin-bottom: 7px;
 }
 
-button:hover {
+/* button:hover {
     background-color: #3664b8;
     cursor: pointer;
-}
+} */
 
-select:hover {
+/* select:hover {
     cursor: pointer;
-}
+} */
 
 .clear {
     background-color: #21417c ;
 }
 
-.clear:hover {
+/* .clear:hover {
     background-color: #172d54;
-}
+} */
