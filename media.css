@@ -11,9 +11,6 @@
     .add__item {
         flex-wrap: wrap;
     }
-    button:hover {
-        pointer-events: none;
-    }
 }
 
 
@@ -49,8 +46,13 @@
     .container input {
         width: 80px;
     }
-    button:hover {
-        pointer-events: none;
+
+}
+
+@media (hover: hover) {
+    .button:hover {
+        width: max-content;
+        background-color: #4D89F8;
+        color: white;
     }
-    
 }
