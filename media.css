@@ -11,6 +11,9 @@
     .add__item {
         flex-wrap: wrap;
     }
+    button:hover {
+        pointer-events: none;
+    }
 }
 
 
@@ -45,6 +48,9 @@
     }
     .container input {
         width: 80px;
+    }
+    button:hover {
+        pointer-events: none;
     }
     
 }
